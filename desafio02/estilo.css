@@ -1,0 +1,13 @@
+*{
+    background-color: black;
+    color: white;
+}
+input{
+    background-color:rgb(56, 56, 56);
+    color: rgba(255, 255, 255, 0.486);
+    width: 80px;
+    height: 30px; 
+}
+h1{
+    text-align:center;
+}
