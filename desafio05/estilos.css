@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-seri
+}
+input{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border:rgb(0, 0, 0)
+
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 510px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}

@@ -1,9 +1,8 @@
-function desafio() {
-    let nome = prompt('Qual é o seu nome?')
-    let idade = prompt(`Quantos anos você tem ${nome}?`)
-    if (idade == "" || nome == "") {
-        alert('Você esqueceu de prencher os parametros.')
-    } else {
-        let fom = alert(`Eu acabei de conhecer ${nome}, que tem ${idade} anos de idade!`)
-    }
+function troco(){
+    let produto = prompt('Qual produto você quer comprar?')
+    let valor = Number(prompt(`Qual é o valor de ${produto}?`))
+    let pago = Number(prompt(`O valor de ${produto} é R$${valor}\nCom quantos reais você vai pagar?`))
+    let res = document.getElementById('res')
+    res.innerHTML = `Você recebera R$${pago-valor} de troco.`
+    
 }

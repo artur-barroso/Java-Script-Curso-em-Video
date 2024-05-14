@@ -1,3 +1,10 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
 section {
     background-color: white;
     border-radius: 10px;
@@ -6,18 +13,16 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
-body{
-    background-color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+h1{
+    color: black;
 }
 input{
-    width: 150px;
     height: 40px;
     border-radius: 20px;
-    background-color: grey;
+    background-color: rgb(1, 199, 1);
     color: white;
+    border: none;
 }
-hr{
-    width: 200px;
+p{
+    color: black;
 }
