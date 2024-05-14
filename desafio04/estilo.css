@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+
+input {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+h1{
+    font-size: xx-large;
+}
