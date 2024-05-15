@@ -4,6 +4,7 @@ function notas() {
     var nota2 = prompt(`Segunda nota de ${nome}`)
     var n1 = Number(nota1)
     var n2 = Number(nota2)
+    var re = sit.innerHTML = "Reprovado"
     if (nota1 == "" || nota2 == "") {
         alert('Digite uma nota valida.')
     } else {
